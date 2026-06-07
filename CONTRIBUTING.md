@@ -1,10 +1,52 @@
-# Contributing
+# Contributing to Awesome Agent Services
 
-Thanks for helping build Awesome Agent Services.
+Contributions are welcome and encouraged. Whether you are fixing a typo, adding a new service, or suggesting a clearer category, your help is appreciated.
 
-This project uses the classic awesome-list pattern. No JSON files, schemas, crawlers, or generated README steps are required for v1.
+Awesome Agent Services uses the classic awesome-list pattern. No JSON files, schemas, crawlers, or generated README steps are required for v1.
 
-## What To Add
+## Quick Rule
+
+Add one bullet under the most relevant category.
+
+```markdown
+- [Name](URL) - One factual sentence. Tags: MCP, x402, API, Paid, OSS.
+```
+
+That is it.
+
+## How To Contribute
+
+1. **Fork the repository.**
+
+2. **Create a branch.**
+
+   ```bash
+   git checkout -b add-example-service
+   ```
+
+3. **Edit `README.md`.**
+
+   Add one service under the most relevant category.
+
+4. **Check the format.**
+
+   Each listing should include:
+
+   - The service name linked to a public URL.
+   - One factual sentence explaining what it does.
+   - Tags at the end.
+
+5. **Commit your change.**
+
+   ```bash
+   git commit -m "Add Example Service"
+   ```
+
+6. **Open a pull request.**
+
+   Keep the PR focused on one service.
+
+## What Belongs Here
 
 Good fits:
 
@@ -16,22 +58,25 @@ Good fits:
 - Finance and signal services.
 - Travel, media, commerce, payment, and developer tools for agents.
 
-## Submission Rule
+Not a fit yet:
 
-Add one bullet under the most relevant category.
+- General SaaS tools with no agent-facing interface.
+- Private services with no public documentation.
+- Unreleased projects with no usable link.
+- Long-form marketing copy.
+- Ranking, crawler, monetization, or analytics proposals.
 
-Format:
+## Tags
 
-```markdown
-- [Name](URL) - One factual sentence. Tags: MCP, x402, API, Paid, OSS.
-```
+Use any that apply:
 
-Examples:
+- `MCP` - Model Context Protocol server or connector
+- `x402` - Supports or relates to x402 payments
+- `API` - Agent-callable HTTP API or hosted endpoint
+- `Paid` - Requires payment, credits, or usage fees
+- `OSS` - Open source repository available
 
-```markdown
-- [Kronos Signals](https://x402.coinopai.com) - Agent-payable crypto market signals via x402. Tags: API, x402, Paid.
-- [Travel Assistant MCP](https://github.com/forgemeshlabs/travel-mcp) - MCP server for flight search and travel workflows. Tags: MCP, OSS.
-```
+Suggest a new tag only when the existing tags are clearly insufficient.
 
 ## Guidelines
 
@@ -41,15 +86,13 @@ Examples:
 - Avoid hype, unverifiable claims, and marketing language.
 - Use stable public links.
 - Do not include secrets, tokens, private keys, invite-only links, or private customer data.
+- Maintain alphabetical order within a category when practical.
 
-## Tags
+## Examples
 
-Use any that apply:
+```markdown
+- [Kronos Signals](https://x402.coinopai.com) - Agent-payable crypto market signals via x402. Tags: API, x402, Paid.
+- [Travel Assistant MCP](https://github.com/forgemeshlabs/travel-mcp) - MCP server for flight search and travel workflows. Tags: MCP, OSS.
+```
 
-- `MCP`
-- `x402`
-- `API`
-- `Paid`
-- `OSS`
-
-Suggest a new tag only when the existing tags are clearly insufficient.
+Thank you for helping map the agent economy.
