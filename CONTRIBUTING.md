@@ -1,8 +1,6 @@
 # Contributing to Awesome Agent Services
 
-Contributions are welcome and encouraged. Whether you are fixing a typo, adding a new service, or suggesting a clearer category, your help is appreciated.
-
-Awesome Agent Services uses the classic awesome-list pattern. No JSON files, schemas, crawlers, or generated README steps are required for v1.
+Your contributions are welcome and encouraged! No matter how big or tiny, fixing that single character face palm push, adding a new service, or suggesting a clearer category, your help is deeply appreciated.
 
 ## Quick Rule
 

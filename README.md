@@ -11,6 +11,22 @@ A curated index of services, APIs, MCP servers, and x402 infrastructure powering
 
 Part of **The Agent Economy**.
 
+The Agent Economy is evolving beyond a curated directory.
+
+## Roadmap
+
+Planned features include:
+
+- Service verification
+- MCP compatibility badges
+- x402 compatibility badges
+- Endpoint health monitoring
+- Discovery and search tools
+- Automated service validation
+- Agent economy statistics and trends
+
+The current focus is building the most useful public directory of services, APIs, MCP servers, and x402 infrastructure for AI agents.
+
 ## Contents
 
 - [What Is An Agent Service?](#what-is-an-agent-service)
