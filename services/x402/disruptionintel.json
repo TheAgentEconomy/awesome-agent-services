@@ -1,0 +1,30 @@
+{
+  "name": "DisruptionIntel",
+  "slug": "disruptionintel",
+  "category": "Business Intelligence",
+  "type": "service",
+  "description": "Commercial disruption intelligence API for workforce, company, territory, gold convergence, sector-impact, and economic signal workflows.",
+  "url": "https://disruption.forgemesh.io",
+  "repository": "https://github.com/forgemeshlabs/disruption-intelligence-mcp",
+  "documentation": "https://github.com/forgemeshlabs/disruption-intelligence-mcp#readme",
+  "x402": {
+    "enabled": true,
+    "discovery_url": "https://disruption.forgemesh.io/.well-known/x402.json",
+    "network": "Base",
+    "settlement_asset": "USDC"
+  },
+  "agent_interfaces": [
+    "x402",
+    "http-api",
+    "mcp"
+  ],
+  "tags": [
+    "business-intelligence",
+    "warn",
+    "geospatial",
+    "economic-signals",
+    "x402"
+  ],
+  "status": "active",
+  "submitted_by": "The Agent Economy"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Kronos",
+  "slug": "kronos",
+  "category": "Finance & Signals",
+  "type": "service",
+  "description": "x402-powered market intelligence and crypto signal service for AI agents, including signal, risk, and decision-support workflows.",
+  "url": "https://x402.coinopai.com",
+  "repository": "https://github.com/forgemeshlabs/coinopai-mcp",
+  "x402": {
+    "enabled": true,
+    "discovery_url": "https://x402.coinopai.com/.well-known/x402.json",
+    "network": "Base",
+    "settlement_asset": "USDC"
+  },
+  "agent_interfaces": [
+    "x402",
+    "http-api",
+    "mcp"
+  ],
+  "tags": [
+    "crypto",
+    "signals",
+    "market-intelligence",
+    "x402"
+  ],
+  "status": "active",
+  "submitted_by": "The Agent Economy"
+}

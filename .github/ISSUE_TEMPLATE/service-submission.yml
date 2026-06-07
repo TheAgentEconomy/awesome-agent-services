@@ -1,0 +1,67 @@
+name: Service submission
+description: Suggest a service, API, MCP server, or x402 infrastructure listing.
+title: "Add service: "
+labels:
+  - service-submission
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Service name
+      description: Public name of the service.
+      placeholder: Example Service
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - x402 Services
+        - MCP Servers
+        - Agent APIs
+        - Data Feeds
+        - Business Intelligence
+        - Finance & Signals
+        - Travel
+        - Image & Media
+        - Commerce & Payments
+        - Developer Tools
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Keep it factual and concise.
+      placeholder: What does this service do for AI agents?
+    validations:
+      required: true
+  - type: checkboxes
+    id: interfaces
+    attributes:
+      label: Agent interfaces
+      options:
+        - label: MCP
+        - label: HTTP API
+        - label: x402
+        - label: SDK
+        - label: Web
+        - label: CLI
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for maintainers
+      description: Include install commands, discovery URLs, or review context.

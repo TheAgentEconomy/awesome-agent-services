@@ -1,0 +1,26 @@
+{
+  "name": "x402",
+  "slug": "x402",
+  "category": "Commerce & Payments",
+  "type": "protocol",
+  "description": "Open payment protocol for HTTP APIs and agent-payable services, commonly used for machine-to-machine and AI-agent micropayments.",
+  "url": "https://x402.org",
+  "documentation": "https://x402.org",
+  "x402": {
+    "enabled": true,
+    "network": "Base",
+    "settlement_asset": "USDC"
+  },
+  "agent_interfaces": [
+    "x402",
+    "http-api"
+  ],
+  "tags": [
+    "payments",
+    "micropayments",
+    "agent-commerce",
+    "protocol"
+  ],
+  "status": "active",
+  "submitted_by": "The Agent Economy"
+}

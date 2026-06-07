@@ -1,0 +1,20 @@
+{
+  "name": "Glama",
+  "slug": "glama",
+  "category": "Developer Tools",
+  "type": "directory",
+  "description": "Directory, discovery, and quality-score surface for MCP servers and Model Context Protocol ecosystem infrastructure.",
+  "url": "https://glama.ai/mcp/servers",
+  "documentation": "https://glama.ai/mcp/servers",
+  "agent_interfaces": [
+    "web"
+  ],
+  "tags": [
+    "mcp",
+    "directory",
+    "discovery",
+    "developer-tools"
+  ],
+  "status": "active",
+  "submitted_by": "The Agent Economy"
+}

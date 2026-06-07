@@ -1,0 +1,30 @@
+{
+  "name": "ImageGen MCP",
+  "slug": "imagegen-mcp",
+  "category": "Image & Media",
+  "type": "mcp-server",
+  "description": "MCP server for AI image generation, background removal, 4x HD upscale, and pro image workflows with x402 payment support.",
+  "url": "https://github.com/forgemeshlabs/imagegen-mcp",
+  "repository": "https://github.com/forgemeshlabs/imagegen-mcp",
+  "npm": "https://www.npmjs.com/package/forgemesh-imagegen",
+  "mcp": {
+    "server_name": "forgemesh-imagegen",
+    "transport": [
+      "stdio"
+    ],
+    "install": "npx -y forgemesh-imagegen",
+    "glama_url": "https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp"
+  },
+  "agent_interfaces": [
+    "mcp",
+    "x402"
+  ],
+  "tags": [
+    "image-generation",
+    "background-removal",
+    "upscale",
+    "x402"
+  ],
+  "status": "active",
+  "submitted_by": "The Agent Economy"
+}
