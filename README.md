@@ -6,89 +6,63 @@ Part of The Agent Economy.
 
 ## Contents
 
-- [Categories](#categories)
-- [Listings](#listings)
+- [x402 Services](#x402-services)
+- [MCP Servers](#mcp-servers)
+- [Agent APIs](#agent-apis)
+- [Data Feeds](#data-feeds)
+- [Business Intelligence](#business-intelligence)
+- [Finance & Signals](#finance--signals)
+- [Travel](#travel)
+- [Image & Media](#image--media)
+- [Commerce & Payments](#commerce--payments)
+- [Developer Tools](#developer-tools)
 - [Contributing](#contributing)
-- [Service Schema](#service-schema)
 
-## Categories
+## x402 Services
 
-- x402 Services
-- MCP Servers
-- Agent APIs
-- Data Feeds
-- Business Intelligence
-- Finance & Signals
-- Travel
-- Image & Media
-- Commerce & Payments
-- Developer Tools
+- [Kronos Signals](https://x402.coinopai.com) - Agent-payable crypto market signals via x402. Tags: API, x402, Paid.
+- [DisruptionIntel](https://disruption.forgemesh.io) - Commercial disruption intelligence for agents, including workforce, company, territory, and economic signal workflows. Tags: API, x402, Paid.
+- [x402](https://www.x402.org/) - Open payment protocol for HTTP 402-based machine payments. Tags: x402, API, OSS.
 
-## Listings
+## MCP Servers
 
-### x402 Services
+- [Travel Assistant MCP](https://github.com/forgemeshlabs/travel-mcp) - MCP server for flight search and travel workflows. Tags: MCP, OSS.
+- [CoinOpAI MCP](https://github.com/forgemeshlabs/coinopai-mcp) - MCP server for agent-accessible crypto intelligence and x402-powered tools. Tags: MCP, x402, OSS.
+- [ImageGen MCP](https://github.com/forgemeshlabs/imagegen-mcp) - MCP server for AI image generation, background removal, and HD image workflows. Tags: MCP, x402, Paid, OSS.
+- [Glama](https://glama.ai/mcp/servers) - Directory and discovery surface for Model Context Protocol servers. Tags: MCP, API.
 
-- [Kronos](services/x402/kronos.json) - x402-powered market intelligence and crypto signal service for AI agents.
-- [DisruptionIntel](services/x402/disruptionintel.json) - Commercial disruption intelligence API for workforce, company, territory, and economic signal workflows.
-- [x402](services/x402/x402.json) - Open payment protocol for HTTP APIs and agent-payable services.
+## Agent APIs
 
-### MCP Servers
+## Data Feeds
 
-- [CoinOpAI MCP](services/mcp/coinopai-mcp.json) - Local MCP server for x402-powered paid crypto intelligence and agent automation search.
-- [ImageGen MCP](services/mcp/imagegen-mcp.json) - MCP server for AI image generation, background removal, HD upscale, and pro image workflows.
-- [Travel Assistant MCP](services/mcp/travel-assistant-mcp.json) - MCP server for airport lookup, route comparison, timing guidance, and external booking links.
-- [Glama](services/mcp/glama.json) - MCP server directory and discovery surface for the Model Context Protocol ecosystem.
+## Business Intelligence
 
-### Agent APIs
+## Finance & Signals
 
-This section is ready for API-first services used directly by agents.
+## Travel
 
-### Data Feeds
+## Image & Media
 
-This section is ready for market, web, business, and operational data feeds.
+## Commerce & Payments
 
-### Business Intelligence
-
-This section is ready for company, market, commercial, and operational intelligence services.
-
-### Finance & Signals
-
-This section is ready for financial data, signal, risk, and decision support services.
-
-### Travel
-
-This section is ready for travel planning, fare intelligence, route search, and booking workflow services.
-
-### Image & Media
-
-This section is ready for image generation, media processing, video, audio, and creative agent tools.
-
-### Commerce & Payments
-
-This section is ready for checkout, micropayment, settlement, affiliate, and payment infrastructure services.
-
-### Developer Tools
-
-This section is ready for developer-facing services, SDKs, testing tools, observability, and agent infrastructure.
+## Developer Tools
 
 ## Contributing
 
-Additions and updates are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions are welcome. Add one bullet under the most relevant category.
 
-Each service entry must:
+Format:
 
-- Live under `services/x402/`, `services/mcp/`, or `services/apis/`.
-- Be valid JSON.
-- Follow [service-schema.json](service-schema.json).
-- Represent one service per pull request.
-- Include stable public URLs.
-
-## Service Schema
-
-The canonical entry format is documented in [service-schema.json](service-schema.json). Pull requests are checked by GitHub Actions using `scripts/validate-services.js`.
-
-Run validation locally:
-
-```bash
-node scripts/validate-services.js
+```markdown
+- [Name](URL) - One factual sentence. Tags: MCP, x402, API, Paid, OSS.
 ```
+
+Keep submissions simple:
+
+- One service per pull request.
+- One bullet per service.
+- Use a stable public URL.
+- Keep the sentence factual, not promotional.
+- Include tags at the end.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.

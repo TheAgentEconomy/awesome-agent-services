@@ -2,58 +2,54 @@
 
 Thanks for helping build Awesome Agent Services.
 
-This directory is focused on services, APIs, MCP servers, and x402 infrastructure used by AI agents. Keep submissions practical, verifiable, and easy to review.
+This project uses the classic awesome-list pattern. No JSON files, schemas, crawlers, or generated README steps are required for v1.
 
-## What Belongs Here
+## What To Add
 
 Good fits:
 
-- x402-payable services and APIs.
-- MCP servers used by AI agents.
+- x402 services.
+- MCP servers.
 - Agent-facing APIs.
-- Data feeds and business intelligence services.
-- Commerce, payment, signal, travel, media, and developer infrastructure used by agents.
+- Data feeds used by agents.
+- Business intelligence services.
+- Finance and signal services.
+- Travel, media, commerce, payment, and developer tools for agents.
 
-Not a fit yet:
+## Submission Rule
 
-- General SaaS tools with no agent-facing interface.
-- Private services with no public documentation.
-- Unreleased projects with no repository, website, or usable endpoint.
-- Ranking, monetization, or analytics proposals. This repository is directory-first.
+Add one bullet under the most relevant category.
 
-## Submission Rules
+Format:
 
-- Submit one service per pull request.
-- Add one JSON file under the most appropriate directory:
-  - `services/x402/`
-  - `services/mcp/`
-  - `services/apis/`
-- Use lowercase kebab-case filenames, for example `example-service.json`.
-- Follow `service-schema.json`.
-- Keep descriptions factual and concise.
-- Include public links that reviewers can inspect.
-- Do not include secrets, private keys, tokens, invite-only URLs, or private endpoint details.
-
-## Local Validation
-
-Run:
-
-```bash
-node scripts/validate-services.js
+```markdown
+- [Name](URL) - One factual sentence. Tags: MCP, x402, API, Paid, OSS.
 ```
 
-The GitHub Action runs the same validation on pull requests.
+Examples:
 
-## Review Expectations
+```markdown
+- [Kronos Signals](https://x402.coinopai.com) - Agent-payable crypto market signals via x402. Tags: API, x402, Paid.
+- [Travel Assistant MCP](https://github.com/forgemeshlabs/travel-mcp) - MCP server for flight search and travel workflows. Tags: MCP, OSS.
+```
 
-Maintainers may ask for:
+## Guidelines
 
-- Better categorization.
-- More neutral wording.
-- Public documentation.
-- A working MCP, API, or x402 discovery URL.
-- Removal of unverifiable claims.
+- Submit one service per pull request.
+- Place the bullet in the most relevant category.
+- Keep the description to one factual sentence.
+- Avoid hype, unverifiable claims, and marketing language.
+- Use stable public links.
+- Do not include secrets, tokens, private keys, invite-only links, or private customer data.
 
-## Updating Existing Listings
+## Tags
 
-Open a pull request that changes only the affected service JSON and README line, if applicable. Keep the diff small.
+Use any that apply:
+
+- `MCP`
+- `x402`
+- `API`
+- `Paid`
+- `OSS`
+
+Suggest a new tag only when the existing tags are clearly insufficient.
